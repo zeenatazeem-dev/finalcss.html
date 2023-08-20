@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    width: 100%; 
+    height: 100%; 
+    background-image: url('/pinky.jpg');
+    background-size: cover;  
+   }
+div{
+text-align: center; 
+text-decoration: none;
+margin: 0px;
+padding: 10px; 
+ background-color: azure; 
+color: rgb(3, 3, 3); 
+text-transform: capitalize;
+text-shadow: 1px 1px 2px rgb(220, 40, 40), 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(214, 172, 172);
+word-spacing: 5px; 
+font-size: x-large;}
+
+h1{
+text-align: center; 
+text-decoration: none;
+margin: 0px;
+padding: 5px; 
+color: rgb(3, 3, 3); 
+text-transform: capitalize;
+text-shadow: 1px 1px 2px rgb(220, 40, 40), 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(214, 172, 172);
+font-size: x-large;
+width: 100%; 
+height: 5vh; 
+min-height: 100px;
+
+}
+.polaroid{
+  width: 25%; 
+  height: auto; 
+  background-color: white(245, 245, 245);
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(125, 22, 22, 0.19);
+  margin: 30px; 
+  float: right; 
+  padding: 5px;  
+}     
+.img {
+  position: absolute;
+  left: 0px;
+  top: 0px;  
+  z-index:-1;
+  background-size: cover;
+}
+ .footer{
+  margin: 5px;
+  padding: 3x;
+  color: rgb(8, 8, 8); 
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px rgb(220, 40, 40), 0 0 25px rgb(252, 252, 252), 0 0 5px rgb(214, 172, 172);
+} 
+@media screen and (min-width: 480px) {
+  body {
+    background-color: rgb(108, 64, 107);
+  }
+}
+@media screen and (mix-width: 720px) {
+  body {
+    background-color: rgb(144, 238, 235);
+  }
+} 

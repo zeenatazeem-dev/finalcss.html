@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+      }
+body{
+    width: 100%;
+    height: 100%;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(220, 40, 40), 0 0 25px rgb(252, 252, 252), 0 0 5px rgb(214, 172, 172);
+    align-items: center;
+    background: linear-gradient(rgb(176, 96, 137),rgba(253, 253, 252, 0.7)), url('/pinky.jpg');
+     z-index: -1;  
+     
+    }
+div.list{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    }
+    .div{
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        }
+
+img{
+    padding: 10px;
+    margin: 5px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(220, 40, 40), 0 0 25px rgb(252, 252, 252), 0 0 5px rgb(214, 172, 172);
+    /* align-items: center; */
+    background-image:  url('/pinky.jpg');
+    transition: width 2s, height 2s, transform 2s;
+    align-items: center;
+    }
+   
+img:hover {
+    transform: rotate(180deg);}    
+footer{
+  margin: 0px;
+  padding: 3px;
+  background-color: azure;
+  color: rgb(8, 8, 8); 
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px rgb(220, 40, 40), 0 0 25px rgb(252, 252, 252), 0 0 5px rgb(214, 172, 172);
+ text-align: center;
+ background-image:  url('/pinky.jpg');
+  } 
+button{
+    border-radius: 40%;
+    width: 80px;
+    color: rgb(8, 8, 8); 
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(220, 40, 40), 0 0 25px rgb(252, 252, 252), 0 0 5px rgb(214, 172, 172);
+    text-align: center;
+   background-image:  url('/pinky.jpg');
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: rgb(108, 64, 107);
+    }
+  }
+  @media screen and (mix-width: 720px) {
+    body {
+      background-color: rgb(144, 238, 235);
+    }
+  } 
+  
+ 
